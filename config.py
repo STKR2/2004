@@ -7,8 +7,8 @@ load_dotenv()
 # client vars
 API_ID = int(getenv("API_ID", "7452578"))
 API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_NAME = getenv("SESSION_NAME", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "2010121827:AAEppkPs28jlqZXKZf0de1ElhEdHEFkZdiU")
+SESSION_NAME = getenv("SESSION_NAME", "AQCtWtuSSHrM3OZcCekFbVmpY8ZDcl2JPjgUrFMlS5i82uWvNGCHykE_x_SaFI2deO1rAi58wpAQVLFHCbsJMWV_EgIAdVJu51ElYGg95vXXwDSr1a5rpnaxsMS2BXKIF4LeUMvqU1LuptqD3kmBb6hXg8IR0QDHBRjamKI-TPSknVro57Ign8kL5oosiSccVRVSgaoJogEs9e9f35aOzv-i9CwwTmS71uD5RxsJD7nU3i9CFvlAyljP3ws65OUo33IXPo7UJB2O2ndQJ9MxCWcUK8mObNI5tqwU01xm4mKF6SpqoE1ZxkUXoaj8uSTwlYIpbd1ijidEZ63VWQ2rvMB2dv_stgA")
 
 # mandatory vars
 OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
