@@ -7,14 +7,14 @@ load_dotenv()
 # client vars
 API_ID = int(getenv("API_ID", "7452578"))
 API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "2010121827:AAG1yz-3CK6MYIvQAytja7-pbCY_rVAs4hE")
-SESSION_NAME = getenv("SESSION_NAME", "AQCtWtuSSHrM3OZcCekFbVmpY8ZDcl2JPjgUrFMlS5i82uWvNGCHykE_x_SaFI2deO1rAi58wpAQVLFHCbsJMWV_EgIAdVJu51ElYGg95vXXwDSr1a5rpnaxsMS2BXKIF4LeUMvqU1LuptqD3kmBb6hXg8IR0QDHBRjamKI-TPSknVro57Ign8kL5oosiSccVRVSgaoJogEs9e9f35aOzv-i9CwwTmS71uD5RxsJD7nU3i9CFvlAyljP3ws65OUo33IXPo7UJB2O2ndQJ9MxCWcUK8mObNI5tqwU01xm4mKF6SpqoE1ZxkUXoaj8uSTwlYIpbd1ijidEZ63VWQ2rvMB2dv_stgA")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
 OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
 ALIVE_NAME = getenv("ALIVE_NAME", "song")
 BOT_USERNAME = getenv("BOT_USERNAME", "Playvideo1BoT")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
