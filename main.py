@@ -10,7 +10,7 @@ async def start_bot():
     LOGS.info("[ INFO ] BOT & USERBOT CLIENT STARTED")
     await calls.start()
     LOGS.info("[ INFO ] PY-TGCALLS CLIENT STARTED")
-    await user.join_chat("RR3R2")
+
     await user.join_chat("xl444")
     await idle()
     LOGS.info("[ INFO ] BOT & USERBOT CLIENT STOPPED")
